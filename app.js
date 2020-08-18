@@ -66,7 +66,6 @@ function endGame(draw) {
     winningMessage.innerText = "Draw!";
   } else {
     winningMessage.innerText = `${circleTurn ? "O" : "X"} Wins!`;
-    console.log(o_wins, x_wins);
   }
   overlay.classList.add("show");
 }
